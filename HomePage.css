@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Cascadia+Code:ital,wght@0,200..700;1,200..700&display=swap');
+body {
+    background-color: #f0f0f0;
+    font-family: "Cascadia Code", sans-serif;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 4vw;
+    color: #3c6dad;
+}
+
+p {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 2vw;
+    color: #194176;
+}
+
+.card-container {
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.card-choice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    margin: 10px auto;
+}
+
+.card-description {
+    color: #3c4c80;
+    background-color: #9babea;
+    opacity: 0.8;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 2vw;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s;
+}
+
+.return {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.5vw;
+    color: #3c6dad;
+    text-align: center;
+}
